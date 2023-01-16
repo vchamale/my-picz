@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  app:
+    container_name: my-picz-frontend
+    image: gcr.io/my-picz/frontend:latest
+    ports:
+      - 3000:3000
