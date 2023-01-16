@@ -19,7 +19,7 @@
 
    FROM node:17-alpine as builder
 
-   ENV REACT_APP_BACKEND_URL=http://34.70.53.151:4000
+   ENV REACT_APP_BACKEND_URL=http://34.132.237.50:4000
 
    WORKDIR /app
    COPY package.json .
